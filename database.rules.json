@@ -1,0 +1,15 @@
+{
+  "rules": {
+    ".read": "true",
+    ".write": "true",
+    "secret":{
+      ".indexOn":"email"
+    },
+    "users":{
+      ".indexOn":"id"
+    },
+    "tokens":{
+      ".indexOn":"token"
+    }
+  }
+}
